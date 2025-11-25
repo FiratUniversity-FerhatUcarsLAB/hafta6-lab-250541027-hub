@@ -56,7 +56,7 @@ public class NotSistemi {
         // Harf Notu
         String letterGrade = getLetterGrade(average);
         String passingStatus = isPassingGrade(average) ? "GECTI" : "KALDI" ;
-        String honorStatus = isHonorList(average, vize, finalExam, homework) ? "VAR" : "YOK ";
+        String honorStatus = isHonorList(average, vize, finalExam, homework) ? "EVET" : "HAYIR" ;
         String retakeStatus = hasRetakeRight(average)? "VAR": "YOK";
         //Çıktılar
         System.out.println("\n=== OGRENCI NOT RAPORU ==="); 
@@ -74,3 +74,4 @@ public class NotSistemi {
         input.close();
     }
     } 
+
