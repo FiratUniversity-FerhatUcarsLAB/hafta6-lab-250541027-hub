@@ -1,3 +1,9 @@
+/*
+ * Ad Soyad: Emine Zehra Duyar
+ * Ogrenci No: 250541027
+ * Tarih: 24.11.2025
+ * Aciklama: GOREV 2: Sinema Bileti 
+ */
 import java.util.Scanner ;
 
 public class SinemaBileti {
@@ -138,3 +144,4 @@ public class SinemaBileti {
         input.close(); 
     }
 }
+
